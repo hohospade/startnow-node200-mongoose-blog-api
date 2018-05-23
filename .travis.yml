@@ -6,3 +6,10 @@ deployment:
     branch: master
     heroku:
       appname: et-mongoose-blog-api2
+deploy:
+  provider: heroku
+  api_key:
+    secure: g9HWBmYLjq1IKIcMpYR1R39kqLo9/1pyLeD+PyIp2dTmfiBbzMy0wExjaqJa1CBecOCSQInFynwxFXj/M9OrSTUPmctOk6R9KqOXHsqmVRTDNbgw+lS3597hDjsKDu5tON0Rnga+5fQycYDAFVhP9hvkTWCTz1t2ALYsQdeZIxf8/9zVvwlrUkvwHkd0+sNQbngz2TPS4g6Rf0nI0z2gcUMm3zRcUUirb/m+Bcrl+GbMGjZcwnxSGsBWl30CEQ1PvopEe84wnwQUMMdhkto4wq1pvaxonK4y3Qxs6ISDaRr6xGGZYZHpl5/Zn86hSR9ubK9bkOSphAiG1s4Z16d7Fdt7pgvRozvmm/ebxLczBphBdX0OPsHj4n1FwH/wwSM0T80n8VA0E5nsFh9ZVUJ3/HM2QI8Qv6onaVYomy1Lkyy3jp09HG0iUxCvM1Qilxf8NWicMeI+tRiYh4LIZSUJY0wPL+qc6cPNyHJ5YsjpAoNc4TQU4LFjKSjZex5teZaKEutoe5i5igY60JCSD07SvW6IyjbXDhm+wb+N3qYA//fSI9ISMRCVEXmQRFFkJ9lPrw3GvRjMrr2QsbKwFY8guffI/7B4nIACEMlT9m4ZnSmr4WxDoNIH9jAirpALSoeCP+58UH6KCusc26ovo2GHi+l60RpfrJmXUBIaQlZ1Ujk=
+  app: et-mongoose-blog-api2
+  on:
+    repo: hohospade/startnow-node200-mongoose-blog-api
