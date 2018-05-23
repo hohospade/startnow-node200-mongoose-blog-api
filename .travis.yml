@@ -1,11 +1,5 @@
-machine:
-  node:
-    version: 8
-deployment:
-  prod:
-    branch: master
-    heroku:
-      appname: et-mongoose-blog-api2
+language: node_js
+node_js: 8
 deploy:
   provider: heroku
   api_key:
