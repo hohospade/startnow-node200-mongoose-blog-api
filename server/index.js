@@ -1,6 +1,6 @@
 const server = require('./app');
-const PORT = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 
-server.listen(PORT, function() {
+server.listen(8080, function() {
   console.log('The EXPRESS server is listening on port 8080.');
 });

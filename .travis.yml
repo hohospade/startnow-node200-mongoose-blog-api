@@ -15,7 +15,7 @@ script:
 - npm test
 deploy:
   provider: heroku
-  api_key: 41b6b41e-8a77-412d-89be-fe3580538669
+  api_key: 
   app: et-mongoose-blog-api2
   on:
     repo: hohospade/startnow-node200-mongoose-blog-api
