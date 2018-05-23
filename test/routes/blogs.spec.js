@@ -76,7 +76,7 @@ describe('/api/blogs', function () {
                             expect(err).to.be.null;
                             expect(res.body._id).to.exist;
                             expect(res.body._id).to.equal(savedBlogId);
-                            
+                            // removed the _id after.author to make the final post test work
                             expect(res.body.author)
                             .to.equal(String(user._id));
                             

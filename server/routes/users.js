@@ -54,5 +54,4 @@ router.delete('/:id', (req, res) => {
 });
 // For delete I have the same thing where it has a strict rule and if it does not find it then a 404 error is returned. If it is correct then it will locate the user by ID and delete it from the system.
 
-
 module.exports = router;
