@@ -1,0 +1,11 @@
+deployment:
+  prod:
+    branch: master
+    heroku:
+      appname: et-mongoose-blog-api2
+
+machine:
+  node:
+    version: 8.1.4
+
+    
